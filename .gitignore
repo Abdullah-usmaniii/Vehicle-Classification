@@ -1,5 +1,6 @@
 # Ignore the whole folder with classified images
 Images/
+Processed_Images/
 
 # Ignore specific file types anywhere in the project
 yolo_detect.py
