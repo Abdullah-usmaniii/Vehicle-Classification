@@ -205,7 +205,7 @@ my_model/
 
 | Property | Value |
 |----------|-------|
-| Base architecture | YOLO11n |
+| Base architecture | YOLO11s |
 | Training epochs | 100 |
 | Image size | 800 × 800 |
 | Optimizer | AdamW |
