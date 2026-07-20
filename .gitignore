@@ -1,6 +1,25 @@
-# Ignore the whole folder with classified images
-Images/
-Processed_Images/
+# ---------------------------------------------------------------
+# Private image folders — folders are tracked (via .gitkeep),
+# but their actual image content is NOT pushed to GitHub.
+# ---------------------------------------------------------------
 
-# Ignore specific file types anywhere in the project
-yolo_detect.py
+# Images fed into the vehicle classifier
+Images/*
+!Images/.gitkeep
+
+# Images fed into the noise cleaner
+noiseImages/*
+!noiseImages/.gitkeep
+
+# All processed / output results
+Processed_Images/*
+!Processed_Images/.gitkeep
+
+# ---------------------------------------------------------------
+# Python & environment
+# ---------------------------------------------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
